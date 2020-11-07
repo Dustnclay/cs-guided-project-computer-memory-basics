@@ -3,10 +3,10 @@
 def csRaindrops(number):
     water = ""
     if number % 3 == 0:
-        water += "plang"
+        water += "pling"
 
     if number % 5 == 0:
-        water += "pling"
+        water += "plang"
 
     if number % 7 == 0:
         water += "plong"
